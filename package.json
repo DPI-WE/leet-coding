@@ -1,0 +1,17 @@
+{
+  "name": "leet-coding",
+  "version": "1.0.0",
+  "description": "a workspace for practicing leet code type problems",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "testDebug": "node --inspect-brk ./node_modules/.bin/jest --runInBand"
+  },
+  "author": "Ian Heraty",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
